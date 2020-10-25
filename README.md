@@ -18,7 +18,7 @@ Day-in and day-out our day is always consists of appointments, activities, and e
 
 -[Installation](https://github.com/gilorcilla/work-day-scheduler#installation)
 
--[Built With]
+-[Built With](https://github.com/gilorcilla/work-day-scheduler#built-with)
 
 -[Test](https://github.com/gilorcilla/work-day-scheduler#test)
 
@@ -28,7 +28,7 @@ Day-in and day-out our day is always consists of appointments, activities, and e
 
 The task is to create a simple calendar application that allows a user to save events for each hour of the day. This application will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-!(/Users/gilbertorcilla_founder/Desktop/Homework5/work-day-scheduler/Example/starter-files/05-third-party-apis-homework-demo.gif)
+![](/Users/gilbertorcilla_founder/Desktop/Homework5/work-day-scheduler/Example/starter-files/05-third-party-apis-homework-demo.gif)
 
 ### Installation
 
