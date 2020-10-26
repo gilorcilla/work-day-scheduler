@@ -65,14 +65,14 @@ $(".b5").on("click", function () {
   localStorage.setItem("5:00", inputText);
 });
 ​
-$("e.5").val(localStorage.getItem("5:00"));
-​
-$(".row").each(function(){
-  // we are taking each rows 1st container text content and saving it to a variable 
-  var rowTimeValue = $(this).children()[0].textContent
-  // we are taking the same format from the Moment librabry and saving it to a variable
-  var momentTimeFormatted = moment().format("h:mm A")
-  console.log("This is coming off the row " + rowTimeValue)
-  console.log("This is coming out of the moment library " + momentTimeFormatted)
-  //compare the values and apply the classes (if/else if/else)
-});
+// $("e.5").val(localStorage.getItem("5:00"));
+// ​
+// $(".row").each(function(){
+//   // we are taking each rows 1st container text content and saving it to a variable 
+//   var rowTimeValue = $(this).children()[0].textContent
+//   // we are taking the same format from the Moment librabry and saving it to a variable
+//   var momentTimeFormatted = moment().format("h:mm A")
+//   console.log("This is coming off the row " + rowTimeValue)
+//   console.log("This is coming out of the moment library " + momentTimeFormatted)
+//   //compare the values and apply the classes (if/else if/else)
+// });
