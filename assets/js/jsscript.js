@@ -9,4 +9,11 @@ $(".saveBtn").on("click", function () {
 var currentTime = moment().hours();
 for (let i = 9; i <= 17; i++) {
   $("#e-" + i).val(localStorage.getItem(i));
+  if (i < currentTime) {
+    $("#e-" + i).addClass("past");
+  } else if (i == currentTime) {
+    $("#e-" + i).addClass("present");
+  } else {
+    $("#e-" + i).addClass("future");
+  }
 }
